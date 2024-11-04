@@ -101,7 +101,7 @@ The basic structure of an HTML5 page includes several key elements:
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html dir="ltr" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -116,6 +116,8 @@ The basic structure of an HTML5 page includes several key elements:
 **Explanations:**
 - **`<!DOCTYPE html>`**: Declares that this is an HTML5 document
 - **`<html>`**: The root element of the HTML page
+  - *`dir="ltr"`:* Indicate direction of reading, `ltr` for left to right and `rtl` for right to left.
+  - *`lang=en`:* Indicate language used
 - **`<head>`**: Contains meta information about the document
 - **`<body>`**: Contains the visible page content
 
